@@ -95,13 +95,13 @@ void victory(char c) {
 
     for (int i = 0; i < size; i += 3) {
     	if (board[i] == board[i + 1] && board[i] == board[i + 2]) {
-			end(c);
+		end(c);
       	}    
     }
 
     for (int i = 0; i < length; i++) {
       	if (board[i] == board[i + 3] && board[i] == board[i + 6]) {
-			end(c);
+		end(c);
       	} 
     }
 
